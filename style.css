@@ -1,0 +1,49 @@
+:root {
+  font-family: 'Noto Sans', serif;
+  background-color: var(--body);
+  --body: rgb(255, 251, 247);
+  --primary: #d5d887;
+  --secondary: #a1cf6b;
+  --tertiary: #7ac74f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--body);
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 4px;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: var(--body);
+}
+
+ul {
+  list-style-type: none;
+}
+
+main {
+  height: calc(100vh - 180px - 80px);
+  scroll-behavior: smooth;
+}
+
+section {
+  min-height: 100%;
+}
